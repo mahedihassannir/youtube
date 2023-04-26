@@ -42,17 +42,18 @@ const Home = () => {
 
     return (
         <div>
-            <section id='forGrid'>
+            <section id='faorGrid' className='grid justify-center'>
                 {/* here is  */}
                 <section>
                     <div>
                         {/* here is profile section details section */}
                     </div>
 
-                    
+
                     <LeftSideBar></LeftSideBar>
                 </section>
-                <div>
+
+                <div className=''>
                     {/* here is main content section of home */}
                     {
                         data.map(data => <HomeContent
